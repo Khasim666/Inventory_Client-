@@ -1,0 +1,61 @@
+/* OrderList.css */
+.order-list-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .order-list-title {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .order-list-add-link {
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .order-list-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .order-list-table th,
+  .order-list-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .order-list-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .order-list-edit-link {
+    margin-right: 10px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .order-list-delete-button {
+    padding: 6px 10px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .order-list-delete-button:hover {
+    background-color: #c82333;
+  }
+  

@@ -1,0 +1,42 @@
+/* ReportView.css */
+.report-view-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .report-view-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .report-view-subtitle {
+    font-size: 1.5em;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  
+  .report-view-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+  }
+  
+  .report-view-table th,
+  .report-view-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .report-view-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .report-view-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .report-view-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
